@@ -234,6 +234,13 @@ dynatrace_delay: 30
 >> As of this writing, the new [run_workflow_template is not GA in EDA... YET!](https://ansible.readthedocs.io/projects/rulebook/en/latest/actions.html#run-workflow-template)  
 >> For now, we are opening, updating, and closing tickets while we fix the problem all in 1 playbook. That will change soon so we can take advantage of workflows!
 
+The last thing you need to do in your job template setting is setup a survey to pass in the ```reporting_host``` and ```problemID``` extra variables passed in by the rulebook.
+![Alt text](<Screenshot from 2023-11-07 08-47-12.png>)
+
+![Alt text](<Screenshot from 2023-11-07 08-48-09.png>)
+
+![Alt text](<Screenshot from 2023-11-07 08-47-26.png>)
+
 So I think we have all the pieces together. At this point I would have 4 tabs up in my brower:  
 1. Tab for ServiceNow Incident screen
 2. Tab for Dynatrace so you can see the problem alert when you kill the Nginx  pid on the host
