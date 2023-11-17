@@ -6,7 +6,7 @@
 3. Dynatrace
 4. ServiceNow
 
-![Alt text](<Screenshot from 2023-11-17 13-57-33.png>)
+![Alt text](<Screenshot from 2023-11-17 15-58-34.png>)
 ### Use case:
 a. Nginx  web server goes down on server.  
 
